@@ -12,7 +12,7 @@ describe('測試add函數', () => {
     })
 })
 */
-
+/*
 var expect = require('chai').expect;
 const add = require('../index');
 describe('測試add函數', ()=> {
@@ -20,3 +20,4 @@ describe('測試add函數', ()=> {
         expect(add(5,5)).to.be.equal(10);
     })
 })
+*/
