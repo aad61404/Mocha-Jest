@@ -16,11 +16,16 @@ https://jestjs.io/docs/es-ES/tutorial-react
 ```
 yarn add --dev react-test-renderer
 ```
+```
+npm test
+```
 
+問題排除 
  Cannot find module '/Users/settourmkt/Work/Mocha-Jest/Jest/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault' from 'App.test.js'
 
+```
 npm add @babel/runtime
-
+```
 
 
 
