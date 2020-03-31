@@ -12,6 +12,7 @@ describe('測試add函數', () => {
     })
 })
 */
+
 /*
 var expect = require('chai').expect;
 const add = require('../index');
@@ -21,3 +22,13 @@ describe('測試add函數', ()=> {
     })
 })
 */
+
+
+var expect = require('chai').expect;
+const add = require('../caculator/add');
+describe('測試add函數', ()=> {
+    it('測試5+5預期101', done => {
+        expect(add(5,5)).to.be.equal(10);
+        done()
+    })
+})
